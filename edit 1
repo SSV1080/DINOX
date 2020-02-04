@@ -1,0 +1,95 @@
+#include<stdio.h>
+#include<stdlib.h>
+int Mobi[10],passi[15] ;
+
+struct block
+{
+	int Pin;
+	int Mob;
+	char Email[50];
+};
+
+int Login()
+{
+	int i,flag=0;
+	printf("Enter the Mobile number  : ");
+	scanf("%s",Mob);
+	
+	printf("Enter Password : ");
+	scanf("%d",&Pin);
+	
+	for(i=0;i<10;i++)
+	{
+		if(Mob==Mobi[i] && Pin==passi[i])
+		{#include<stdio.h>
+#include<stdlib.h>
+int Mobi[10],passi[15] ;
+
+struct block
+{
+	int Pin;
+	int Mob;
+	char Email[50];
+};
+
+int Login()
+{
+	int i,flag=0;
+	printf("Enter the Mobile number  : ");
+	scanf("%s",Mob);
+	
+	printf("Enter Password : ");
+	scanf("%d",&Pin);
+	
+	for(i=0;i<10;i++)
+	{
+		if(Mob==Mobi[i] && Pin==passi[i])
+		{
+			flag=1;
+		}
+	}
+	if(flag==1)
+	{
+		printf("\n Successfully Logged in");
+		//Choose() ;
+	}
+	else
+	return 0;
+}
+
+int Regis(int Mobi[],int passi[],int Email[])
+{
+ 	int Con;
+	printf("Enter your mobile number :");
+	scanf("%d",&mob);
+
+	printf("Enter Password : ");
+	scanf("%d",&Pin);
+
+	printf("Confirm pin"); 
+	scanf("%d",&Con);
+        
+			flag=1;
+		}
+	}
+	if(flag==1)
+	{
+		printf("\n Successfully Logged in");
+		//Choose() ;
+	}
+	else
+	return 0;
+}
+
+int Regis(int Mobi[],int passi[],int Email[])
+{
+ 	int Con;
+	printf("Enter your mobile number :");
+	scanf("%d",&mob);
+
+	printf("Enter Password : ");
+	scanf("%d",&Pin);
+
+	printf("Confirm pin"); 
+	scanf("%d",&Con);
+        
