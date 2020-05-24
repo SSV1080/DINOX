@@ -237,7 +237,6 @@ int cinema()
 				                    }
                                     confir(screenuno);
 				                    break;					
-					*/
 	        }
     }
 
